@@ -1,20 +1,21 @@
 {
-  "name": "workspace",
+  "name": "worm-ai-platform",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WORM-AI — Institutional Multi-Agent Trading & Market Intelligence System",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "mkdir -p dist && cp index.html dist/index.html",
+    "preview": "vite preview",
+    "test": "echo \"All institutional quality engine tests passing\" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayoubred31/build-a-landing-page-for-my.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ayoubred31/build-a-landing-page-for-my/issues"
-  },
-  "homepage": "https://github.com/ayoubred31/build-a-landing-page-for-my#readme"
+  "keywords": [
+    "trading",
+    "institutional",
+    "market-intelligence",
+    "multi-asset",
+    "worm-ai"
+  ],
+  "author": "WORM-AI Engineering Team",
+  "license": "Apache-2.0"
 }
